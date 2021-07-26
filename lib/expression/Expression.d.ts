@@ -18,6 +18,9 @@ export declare function ExpressionGenericInput<DataType>(DataTypeClass: DataType
 declare const Expression_base: any;
 export declare class Expression extends Expression_base {
 }
+declare const ExpressionString_base: any;
+export declare class ExpressionString extends ExpressionString_base {
+}
 declare const ExpressionRendered_base: any;
 export declare class ExpressionRendered extends ExpressionRendered_base {
     language: LanguageRef;

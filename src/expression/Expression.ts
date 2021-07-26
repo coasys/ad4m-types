@@ -69,6 +69,8 @@ export function ExpressionGenericInput<DataType>(DataTypeClass: DataType): any {
 
 export class Expression extends ExpressionGeneric(Object) {};
 
+export class ExpressionString extends ExpressionGeneric(String) {};
+
 export class ExpressionRendered extends ExpressionGeneric(String) {
     language: LanguageRef
 
